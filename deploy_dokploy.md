@@ -30,6 +30,7 @@ Por cuanto la aplicación Dokploy está en constante actualización, quizás alg
 ### Despliegue de Servicios
 #### Base de Datos:
 Dentro de la empresa que acaba de crear, presione *Create Service*, y del submenú que se abre presione *Database*. Llene la plantilla con estos valores y luego presione *Create*:
+![Logo](img/g-opciones-servicios.png)
 * *Select a database*: PostgreSQL
 * *Name*: db
 * *Select a Server*: db 
@@ -37,8 +38,6 @@ Dentro de la empresa que acaba de crear, presione *Create Service*, y del submen
 * *Database User*: ingecon
 * *Database Password*: <contraseña_de_ingecon>
 * *Docker image*: postgres:16.9
-
-![Logo](img/g-opciones-servicios.png)
 
 Ingrese a db dándole clic. 
 Seleccione la pestaña *Advanced* y diríjase al bloque *Volumes* y modifique el *Volume Name* debe quedar <nombre_empresa>-db-data, luego presione *update*.  
