@@ -20,7 +20,9 @@ Por cuanto la aplicación Dokploy está en constante actualización, quizás alg
 ![Logo](img/c-ingresar-projectos.png)
 2. Presione el botón *Create Project*.
 3. Llene el formulario con el nombre de la empresa abreviado en *name*, y en *Description* con el puerto de la base de datos que sigue. Siempre debe mirar cual fue el último despliegue y seguir con el consecutivo, **Si ya existe el puerto y no tiene cuidado podría perderse información.**
-4. Luego presione *Create*, automaticamente lo llevara dentro de la empresa nueva, donde desplegará los servicios necesarios.  
+![Logo](img/e-agregar-proyecto.png)
+4. Luego presione *Create*, automaticamente lo llevara dentro de la empresa nueva, donde desplegará los servicios necesarios.
+![Logo](img/f-dentro-proyecto.png)
 
 ### Despliegue de Servicios
 #### Base de Datos:
@@ -32,6 +34,7 @@ Dentro de la empresa que acaba de crear, presione *Create Service*, y del submen
 * *Database User*: ingecon
 * *Database Password*: <contraseña_de_ingecon>
 * *Docker image*: postgres:16.9
+![Logo](img/g-opciones-servicios.png)
 
 Ingrese a db dándole clic. 
 Seleccione la pestaña *Advanced* y diríjase al bloque *Volumes* y modifique el *Volume Name* debe quedar <nombre_empresa>-db-data, luego presione *update*.  
