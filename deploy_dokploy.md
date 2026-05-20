@@ -17,7 +17,7 @@ Por cuanto la aplicación Dokploy está en constante actualización, quizás alg
 
 ### Creación del proyecto
 1. Ingrese al menú *Project* desde la barra lateral izquierda.
-![Logo](img/c-ingresar-proyectos.png)
+![Logo](img/c-ingresar-projectos.png)
 2. Presione el botón *Create Project*.
 3. Llene el formulario con el nombre de la empresa abreviado en *name*, y en *Description* con el puerto de la base de datos que sigue. Siempre debe mirar cual fue el último despliegue y seguir con el consecutivo, **Si ya existe el puerto y no tiene cuidado podría perderse información.**
 4. Luego presione *Create*, automaticamente lo llevara dentro de la empresa nueva, donde desplegará los servicios necesarios.  
