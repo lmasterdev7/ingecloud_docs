@@ -37,10 +37,11 @@ Por cuanto la aplicación Dokploy está en constante actualización, quizás alg
 
 ### Despliegue de Servicios
 #### Base de Datos:
-Dentro de la empresa que acaba de crear, presione *Create Service*, y del submenú que se abre presione *Database*. Llene la plantilla con estos valores y luego presione *Create*:
+Dentro de la empresa que acaba de crear, presione *Create Service*, y del submenú que se abre presione *Database*. 
 <p>
 	<img src="img/g-opciones-servicios.png" width="320">
 </p>
+Llene la plantilla con estos valores y luego presione *Create*:
 <p>
 	<img src="img/h-formulario-db.png" width="320">
 </p>
