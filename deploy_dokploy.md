@@ -58,6 +58,9 @@ Ingrese a db dándole clic.
 Seleccione la pestaña *Advanced* y diríjase al bloque *Volumes* y modifique el *Volume Name* debe quedar <nombre_empresa>-db-data, luego presione *update*.  
 
 Luego seleccione la pestaña *Backups* y presione *Create Backup*. Llene la plantilla con los siguientes datos y luego presione *Create*:
+<p>
+	<img src="img/i-formulario-bkup-db.png" width="320">
+</p>
 
 * *Select Destination:* cloudflare
 * *Database:* <nombre_empresa>
@@ -68,6 +71,9 @@ Luego seleccione la pestaña *Backups* y presione *Create Backup*. Llene la plan
 Por último diríjase a la pestaña *General*, al bloque *External Credentials* en el campo *External Port(Internet)* y escriba el puerto de la base de datos y luego presione *Save*.
 
 Con esa opción deberá iniciarse la base de datos, sino aparece el círculo verde presione *Deploy*.
+<p>
+	<img src="img/j-desplegar-db.png" width="320">
+</p>
 
 #### Redis
 Dentro de la empresa que acaba de crear, presione *Create Service*, y del submenú que se abre presione *Database*. Llene la plantilla con estos valores y luego presione *Create*:
