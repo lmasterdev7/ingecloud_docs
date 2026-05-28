@@ -123,7 +123,7 @@ Luego llene el formulario *Build Type* con los siguientes datos y luego presione
 * *Docker File*: Dockerfile
 * *Docker Context path*: ./
 
-Diríjase a la pestaña *Environment* y pegue el siguiente código, recuerde modificar el puerto de la base de datos de Postgres, puerto de Redis, nombre de empresa, secret_key y api_nube_token luego presionar el botón *Save*:
+Diríjase a la pestaña *Environment* y pegue el siguiente código, debe modificar todos los valores que se encuentran dentro de corchetes <> y escribir los valores que correnpondan, para evitar realizar tantos cambios se recomienda copiar las variables de entorno de demo en cuyo caso solo deberá modificar el nombre de la empresa y los puertos de las bases de datos. Para guardar los cambios presione el botón *Save*:
 ~~~bash
 # Nombre del archivo principal de la aplicación Flask 
 FLASK_APP=factory:create_app
