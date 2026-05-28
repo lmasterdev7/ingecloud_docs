@@ -41,6 +41,7 @@ Dentro de la empresa que acaba de crear, presione *Create Service*, y del submen
 <p>
 	<img src="img/g-opciones-servicios.png" width="320">
 </p>
+
 Llene la plantilla con estos valores y luego presione *Create*:
 <p>
 	<img src="img/h-formulario-db.png" width="320">
