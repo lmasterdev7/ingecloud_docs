@@ -32,7 +32,7 @@ Por cuanto la aplicación Dokploy está en constante actualización, quizás alg
 
 4. Luego presione *Create*, automaticamente lo llevara dentro de la empresa nueva, donde desplegará los servicios necesarios.
 <p>
-	<img src="img/f-dentro-proyecto.png" width="640">
+	<img src="img/f-dentro-proyecto.png" width="320">
 </p>
 
 ### Despliegue de Servicios
