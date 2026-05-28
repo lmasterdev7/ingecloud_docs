@@ -13,10 +13,15 @@ Por cuanto la aplicación Dokploy está en constante actualización, quizás alg
 ### Ingreso a Dokploy
 1. Ingrese a un navegador web, preferiblemente Google Chrome y digite la siguiente url cp.ingecloud.app a fin de ingresar a la página web orquestadora de los despliegues de Ingecloud. 
 2. Ingrese el *Email* del administrador y el *Password*, luego presione el botón *Login*.
+<p>
+	<img src="img/a-inicio-sesion.png" width="300" height="200">
+</p>
 
 ### Creación del proyecto
 1. Ingrese al menú *Project* desde la barra lateral izquierda.
-![Logo](img/c-ingresar-projectos.png)
+<p>
+	<img src="img/d-listado-proyectos.png" width=600" height="400">
+</p>
 
 2. Presione el botón *Create Project*.
 
