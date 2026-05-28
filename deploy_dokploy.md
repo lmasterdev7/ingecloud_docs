@@ -134,20 +134,20 @@ API_NUBE_TOKEN='<copiar_api_nube_token_que_corresponde>'
 
 # Tipo de motor de base de datos (sqlserver o postgresql), DB_TYPE=sqlserver
 DB_TYPE=postgresql
-POSTGRESQL_URL=postgresql+psycopg2://ingecon:Biometria8411*@10.10.10.3:<puerto_base_datos>/<nombre_empresa>
+POSTGRESQL_URL=postgresql+psycopg2://ingecon:<contraseña_base_datos>@10.10.10.3:<puerto_base_datos>/<nombre_empresa>
 
 # configuración de correo
 MAIL_SERVER=mail.ingecongroup.com
 MAIL_PORT=465
 MAIL_USE_SSL=True
 MAIL_USERNAME=noreplytest@ingecongroup.com
-MAIL_PASSWORD=)_qBz5J8D$YF9{As
+MAIL_PASSWORD=<contraseña_de_correo>
 MAIL_DEFAULT_SENDER_NAME=Notificacion IngeCloud
 MAIL_DEFAULT_SENDER_EMAIL=noreplytest@ingecongroup.com
 
 # Redis / Celery
-CELERY_BROKER_URL=redis://default:Biometria8411*@10.10.10.3:<puerto_de_redis>/0
-CELERY_RESULT_BACKEND=redis://default:Biometria8411*@10.10.10.3:<puerto_de_redis>/1
+CELERY_BROKER_URL=redis://default:<contraseña_base_datos>@10.10.10.3:<puerto_de_redis>/0
+CELERY_RESULT_BACKEND=redis://default:<contraseña_base_datos>@10.10.10.3:<puerto_de_redis>/1
 ~~~
 
 
