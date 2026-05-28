@@ -188,6 +188,7 @@ Por último diríjase a la pestaña Advanced al bloque Volumes y añada dos vol�
 <p>
 	<img src="img/q-volume1-app.png" width="640">
 </p>
+
 <u>Volumen 1</u>:
 * *Select the Mount Type:* Volume Mount
 * *Volume Name:* <nombre_empresa>-uploads
@@ -196,6 +197,7 @@ Por último diríjase a la pestaña Advanced al bloque Volumes y añada dos vol�
 <p>
 	<img src="img/r-volumen2-app.png" width="640">
 </p>
+
 <u>Volumen 2</u>:
 * *Select the Mount Type:* Volume Mount
 * *Volume Name:* <nombre_empresa>-migrations
