@@ -14,29 +14,33 @@ Por cuanto la aplicación Dokploy está en constante actualización, quizás alg
 1. Ingrese a un navegador web, preferiblemente Google Chrome y digite la siguiente url cp.ingecloud.app a fin de ingresar a la página web orquestadora de los despliegues de Ingecloud. 
 2. Ingrese el *Email* del administrador y el *Password*, luego presione el botón *Login*.
 <p>
-	<img src="img/a-inicio-sesion.png" width="300">
+	<img src="img/a-inicio-sesion.png" width="320">
 </p>
 
 ### Creación del proyecto
 1. Ingrese al menú *Project* desde la barra lateral izquierda.
 <p>
-	<img src="img/d-listado-proyectos.png" width=600">
+	<img src="img/d-listado-proyectos.png" width=640">
 </p>
 
 2. Presione el botón *Create Project*.
 
 3. Llene el formulario con el nombre de la empresa abreviado en *name*, y en *Description* con el puerto de la base de datos que sigue. Siempre debe mirar cual fue el último despliegue y seguir con el consecutivo, **Si ya existe el puerto y no tiene cuidado podría perderse información**.
 <p>
-	<img src="img/e-agregar-proyecto.png" width="300" height="200">
+	<img src="img/e-agregar-proyecto.png" width="320">
 </p>	
 
 4. Luego presione *Create*, automaticamente lo llevara dentro de la empresa nueva, donde desplegará los servicios necesarios.
-![Logo](img/f-dentro-proyecto.png)
+<p>
+	<img src="img/f-dentro-proyecto.png" width="640">
+</p>
 
 ### Despliegue de Servicios
 #### Base de Datos:
 Dentro de la empresa que acaba de crear, presione *Create Service*, y del submenú que se abre presione *Database*. Llene la plantilla con estos valores y luego presione *Create*:
-![Logo](img/g-opciones-servicios.png)
+<p>
+	<img src="img/g-opciones-servicios.png" width="320">
+</p>
 * *Select a database*: PostgreSQL
 * *Name*: db
 * *Select a Server*: db 
