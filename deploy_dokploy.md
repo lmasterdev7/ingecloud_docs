@@ -41,6 +41,10 @@ Dentro de la empresa que acaba de crear, presione *Create Service*, y del submen
 <p>
 	<img src="img/g-opciones-servicios.png" width="320">
 </p>
+<p>
+	<img src="img/h-formulario-db.png" width="320">
+</p>
+
 * *Select a database*: PostgreSQL
 * *Name*: db
 * *Select a Server*: db 
