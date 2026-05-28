@@ -44,7 +44,7 @@ Dentro de la empresa que acaba de crear, presione *Create Service*, y del submen
 
 Llene la plantilla con estos valores y luego presione *Create*:
 <p>
-	<img src="img/h-formulario-db.png" width="640">
+	<img src="img/h-formulario-db.png" width="320">
 </p>
 
 * *Select a database*: PostgreSQL
