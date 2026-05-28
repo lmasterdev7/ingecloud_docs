@@ -72,7 +72,7 @@ Por último diríjase a la pestaña *General*, al bloque *External Credentials* 
 
 Con esa opción deberá iniciarse la base de datos, sino aparece el círculo verde presione *Deploy*.
 <p>
-	<img src="img/j-desplegar-db.png" width="320">
+	<img src="img/j-desplegar-db.png" width="640">
 </p>
 
 #### Redis
