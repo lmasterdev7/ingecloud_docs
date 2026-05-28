@@ -77,6 +77,10 @@ Con esa opción deberá iniciarse la base de datos, sino aparece el círculo ver
 
 #### Redis
 Dentro de la empresa que acaba de crear, presione *Create Service*, y del submenú que se abre presione *Database*. Llene la plantilla con estos valores y luego presione *Create*:
+<p>
+	<img src="img/k-desplegar-redis.png" width="320">
+</p>
+
 * *Select a database*: Redis
 * *Name*: redis
 * *Select a Server*: db 
@@ -87,6 +91,9 @@ Ingrese a redis dándole clic.
 Seleccione la pestaña *Advanced* y diríjase al bloque *Volumes* y modifique el *Volume Name* debe quedar <nombre_empresa>-redis-data, luego presione *update*.
 
 Por último diríjase a la pestaña *General*, al bloque *External Credentials* en el campo *External Port(Internet)* y escriba el puerto de la base de datos y luego presione *Save*.
+<p>
+	<img src="img/l-puerto-redis.png" width="640">
+</p>
 
 Con esa opción deberá iniciarse la base de datos, sino aparece el círculo verde presione *Deploy*. El puerto de redis es el mismo de la db pero no con 100## sino 200##.
 
@@ -96,6 +103,10 @@ Dentro de la empresa que acaba de crear, presione *Create Service*, y del submen
 * *Select a Server*: Dokploy
 
 Ingrese a la app dándole clic. En la pestaña *General* en el bloque *Provider* digite el formulario y luego presione *Save*:
+<p>
+	<img src="img/m-formulario-github-app.png" width="640">
+</p>
+
 * *Github Account*: dokploy-ingeconcr-github
 * *Repositorio*: ingecon-cloud
 * *Branch*: main 
@@ -103,18 +114,22 @@ Ingrese a la app dándole clic. En la pestaña *General* en el bloque *Provider*
 * *Trigger Type*: On Tag
 
 Luego llene el formulario *Build Type* con los siguientes datos y luego presione *Save*:
+<p>
+	<img src="img/n-app-dockerfile.png" width="640">
+</p>
+
 * *Build Type*: Dockerfile
 * *Docker File*: Dockerfile
 * *Docker Context path*: ./
 
-Diríjase a la pestaña *Environment* y pegue el siguiente código, recuerde modificar el puerto de la base de datos de Postgres y Redis y el nombre de empresa y luego presionar el botón *Save*:
+Diríjase a la pestaña *Environment* y pegue el siguiente código, recuerde modificar el puerto de la base de datos de Postgres, puerto de Redis, nombre de empresa, secret_key y api_nube_token luego presionar el botón *Save*:
 ~~~bash
 # Nombre del archivo principal de la aplicación Flask 
 FLASK_APP=factory:create_app
 
 # Clave secreta para manejar sesiones y cookies de manera, y de la API
-SECRET_KEY='9MqiO5Lp2:4g);>wNbwl.H@JD+jx4+cb'
-API_NUBE_TOKEN='DE.+Zr%(YReSS+;}MdEUsYm6'
+SECRET_KEY='<Copiar_secret_key_que_corresponde>'
+API_NUBE_TOKEN='<copiar_api_nube_token_que_corresponde>'
 
 # Tipo de motor de base de datos (sqlserver o postgresql), DB_TYPE=sqlserver
 DB_TYPE=postgresql
@@ -136,6 +151,9 @@ CELERY_RESULT_BACKEND=redis://default:Biometria8411*@10.10.10.3:<puerto_de_redis
 
 
 Vaya a la pestaña *Domains* y agregue estos dos dominios usando el botón *Add Domain* y luego *Create*:
+<p>
+	<img src="img/o-dominio-app.png" width="320">
+</p>
 	
 <u>Dominio 1</u>:
 * *Host:* <nombre_empresa>.ingecloud.app
@@ -154,6 +172,9 @@ Vaya a la pestaña *Domains* y agregue estos dos dominios usando el botón *Add 
 * *Certificate Provider:* Let's Encrypt
 
 Continúe en la pestaña *Volume Backups* y añada un *Add Volume Backup*, llene el formulario con estos valores y luego presione *Create Volume Backup*:
+<p>
+	<img src="img/p-volumen-backup-app.png" width="320">
+</p>
 
 * *Task Name:* <nombre_empresa>-uploads
 * *Schedule:* 0 3 * * *
@@ -163,12 +184,17 @@ Continúe en la pestaña *Volume Backups* y añada un *Add Volume Backup*, llene
 * *Keep Latest Backups:* 10
 
 Por último diríjase a la pestaña Advanced al bloque Volumes y añada dos volúmenes con estos datos usando el botón *Add Volume* y luego *Create*:
-
+<p>
+	<img src="img/q-volume1-app.png" width="640">
+</p>
 <u>Volumen 1</u>:
 * *Select the Mount Type:* Volume Mount
 * *Volume Name:* <nombre_empresa>-uploads
 * *Mount Path:* /app/static/uploads
 
+<p>
+	<img src="img/r-volumen2-app.png" width="640">
+</p>
 <u>Volumen 2</u>:
 * *Select the Mount Type:* Volume Mount
 * *Volume Name:* <nombre_empresa>-migrations
