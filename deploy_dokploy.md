@@ -5,7 +5,7 @@ El objetivo de este documento, es realizar un despliegue efectivo de la aplicaci
 
 Por seguridad no se incluyen credenciales de las bases de datos, en su lugar verá "valores por defecto" o "contraseña de ingecon", estos datos los tiene cualquiera de los técnicos de Ingecon Group SAS.
 
-Por cuanto la aplicación Dokploy está en constante actualización, quizás algunas imágenes no sean exactamente igual como aparecen en este documento, pero el líneas generales el funcionamiento es igual.
+Por cuanto la aplicación Dokploy está en constante actualización, quizás algunas imágenes no sean exactamente igual como aparecen en este documento, pero en líneas generales el funcionamiento es igual.
 
 ---
 ## Procedimiento de despliegue
