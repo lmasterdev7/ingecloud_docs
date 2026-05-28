@@ -6,4 +6,4 @@ También se agregan documentos relacionado con el despliegue y configuración de
 ---
 
 ## Indice
-### - [Despligue de Ingeloud](deploy_dokploy.md)
+### + [Despligue de Ingeloud](deploy_dokploy.md)
