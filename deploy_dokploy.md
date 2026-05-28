@@ -14,7 +14,7 @@ Por cuanto la aplicación Dokploy está en constante actualización, quizás alg
 1. Ingrese a un navegador web, preferiblemente Google Chrome y digite la siguiente url cp.ingecloud.app a fin de ingresar a la página web orquestadora de los despliegues de Ingecloud. 
 2. Ingrese el *Email* del administrador y el *Password*, luego presione el botón *Login*.
 <p>
-	<img src="img/a-inicio-sesion.png" width="320">
+	<img src="img/a-inicio-sesion.png" width="640">
 </p>
 
 ### Creación del proyecto
