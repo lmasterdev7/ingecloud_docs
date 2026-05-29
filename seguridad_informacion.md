@@ -5,30 +5,20 @@ Santiago de Cali, 1 de enero del 2026
 ## Propósito 
 
 Establecer el marco integral de gestión de seguridad de la información de Ingecon Group SAS para proteger los activos de información gestionados a través de la plataforma Ingecloud, garantizando: 
-
 -	Confidencialidad 
-
 -	Integridad 
-
 -	Disponibilidad 
-
 -	Autenticidad 
-
 -	Trazabilidad 
  
 
 ## 1. Alcance 
 
 Esta política aplica a: 
-
 -	Todos los empleados y contratistas. 
-
 -	La infraestructura tecnológica que soporta Ingecloud. 
-
 -	Los datos personales y corporativos tratados por la plataforma. 
-
 -	Proveedores tecnológicos vinculados a la operación. 
-
 
 ## 2. Marco Normativo 
 
@@ -57,44 +47,31 @@ Ingecon Group SAS opera conforme a:
 -	Reportar eventos sospechosos o incidentes. 
  
 
-4. Gestión de Riesgos 
+## 4. Gestión de Riesgos 
 
 La organización identifica, evalúa y trata riesgos que puedan afectar la seguridad de la información mediante: 
+-	Evaluación periódica de vulnerabilidades. 
+-	Implementación de controles preventivos, de detección y correctivos. 
+-	Revisión anual de la postura de seguridad. 
 
-Evaluación periódica de vulnerabilidades. 
+## 5. Seguridad de Infraestructura 
 
-Implementación de controles preventivos, de detección y correctivos. 
- 
+-	Infraestructura desplegada en servidores VPS con recursos dedicados. 
+-	Segmentación mediante red privada (VPC). 
+-	Bases de datos no expuestas públicamente. 
+-	Acceso administrativo exclusivo mediante autenticación SSH basada en llave criptográfica. 
+-	Firewall perimetral activo. 
+-	Protección contra ataques DDoS. 
+-	Cifrado obligatorio HTTPS (TLS). 
 
-Revisión anual de la postura de seguridad. 
+## 6. Protección de Datos Personales 
 
-Shape 
-
-5. Seguridad de Infraestructura 
-
--    Infraestructura desplegada en servidores VPS con recursos 			     dedicados. 
-	-    Segmentación mediante red privada (VPC). 
-	-    Bases de datos no expuestas públicamente. 
-	-    Acceso administrativo exclusivo mediante autenticación SSH 		     basada en llave criptográfica. 
-	-    Firewall perimetral activo. 
-	-    Protección contra ataques DDoS. 
-
--    Cifrado obligatorio HTTPS (TLS). 
-
- 
-
-6. Protección de Datos Personales 
-
--    Se implementan medidas técnicas y organizativas para: 
-
--    Garantizar tratamiento conforme a finalidad contractual 
-	-    Evitar acceso no autorizado 
-
--    Aplicar control de acceso basado en roles 
-
--    Mantener política de retención de datos 
-
--    Prohibir cesión o transferencia no autorizada 
+-	Se implementan medidas técnicas y organizativas para: 
+-	Garantizar tratamiento conforme a finalidad contractual 
+-	Evitar acceso no autorizado 
+-	Aplicar control de acceso basado en roles 
+-	Mantener política de retención de datos 
+-	Prohibir cesión o transferencia no autorizada 
  
 
 Shape 
