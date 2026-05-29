@@ -1,38 +1,35 @@
-Política 
-Seguridad de la Información 
-
-Línea corta 
+# Política Seguridad de la Información 
 
 Santiago de Cali, 1 de enero del 2026 
 
-Propósito 
+## Propósito 
 
 Establecer el marco integral de gestión de seguridad de la información de Ingecon Group SAS para proteger los activos de información gestionados a través de la plataforma Ingecloud, garantizando: 
 
-Confidencialidad 
+-	Confidencialidad 
 
-Integridad 
+-	Integridad 
 
--    Disponibilidad 
+-	Disponibilidad 
 
--    Autenticidad 
+-	Autenticidad 
 
--    Trazabilidad 
+-	Trazabilidad 
  
 
-1. Alcance 
+## 1. Alcance 
 
 Esta política aplica a: 
 
-Todos los empleados y contratistas. 
+-	Todos los empleados y contratistas. 
 
-La infraestructura tecnológica que soporta Ingecloud. 
+-	La infraestructura tecnológica que soporta Ingecloud. 
 
-Los datos personales y corporativos tratados por la plataforma. 
+-	Los datos personales y corporativos tratados por la plataforma. 
 
-Proveedores tecnológicos vinculados a la operación. 
+-	Proveedores tecnológicos vinculados a la operación. 
 
- 
+--- 
 
 2. Marco Normativo 
 
