@@ -20,31 +20,31 @@ Por cuanto la aplicación Dokploy está en constante actualización, quizás alg
 ### Creación del proyecto
 1. Ingrese al menú *Project* desde la barra lateral izquierda.
 <p>
-	<img src="img/d-listado-proyectos.png" width=640">
+	<img src="../img/d-listado-proyectos.png" width=640">
 </p>
 
 2. Presione el botón *Create Project*.
 
 3. Llene el formulario con el nombre de la empresa abreviado en *name*, y en *Description* con el puerto de la base de datos que sigue. Siempre debe mirar cual fue el último despliegue y seguir con el consecutivo, **Si ya existe el puerto y no tiene cuidado podría perderse información**.
 <p>
-	<img src="img/e-agregar-proyecto.png" width="320">
+	<img src="../img/e-agregar-proyecto.png" width="320">
 </p>	
 
 4. Luego presione *Create*, automaticamente lo llevara dentro de la empresa nueva, donde desplegará los servicios necesarios.
 <p>
-	<img src="img/f-dentro-proyecto.png" width="320">
+	<img src="../img/f-dentro-proyecto.png" width="320">
 </p>
 
 ### Despliegue de Servicios
 #### Base de Datos:
 Dentro de la empresa que acaba de crear, presione *Create Service*, y del submenú que se abre presione *Database*. 
 <p>
-	<img src="img/g-opciones-servicios.png" width="320">
+	<img src="../img/g-opciones-servicios.png" width="320">
 </p>
 
 Llene la plantilla con estos valores y luego presione *Create*:
 <p>
-	<img src="img/h-formulario-db.png" width="320">
+	<img src="../img/h-formulario-db.png" width="320">
 </p>
 
 * *Select a database*: PostgreSQL
@@ -60,7 +60,7 @@ Seleccione la pestaña *Advanced* y diríjase al bloque *Volumes* y modifique el
 
 Luego seleccione la pestaña *Backups* y presione *Create Backup*. Llene la plantilla con los siguientes datos y luego presione *Create*:
 <p>
-	<img src="img/i-formulario-bkup-db.png" width="320">
+	<img src="../img/i-formulario-bkup-db.png" width="320">
 </p>
 
 * *Select Destination:* cloudflare
@@ -73,13 +73,13 @@ Por último diríjase a la pestaña *General*, al bloque *External Credentials* 
 
 Con esa opción deberá iniciarse la base de datos, sino aparece el círculo verde presione *Deploy*.
 <p>
-	<img src="img/j-desplegar-db.png" width="640">
+	<img src="../img/j-desplegar-db.png" width="640">
 </p>
 
 #### Redis
 Dentro de la empresa que acaba de crear, presione *Create Service*, y del submenú que se abre presione *Database*. Llene la plantilla con estos valores y luego presione *Create*:
 <p>
-	<img src="img/k-desplegar-redis.png" width="320">
+	<img src="../img/k-desplegar-redis.png" width="320">
 </p>
 
 * *Select a database*: Redis
@@ -93,7 +93,7 @@ Seleccione la pestaña *Advanced* y diríjase al bloque *Volumes* y modifique el
 
 Por último diríjase a la pestaña *General*, al bloque *External Credentials* en el campo *External Port(Internet)* y escriba el puerto de la base de datos y luego presione *Save*.
 <p>
-	<img src="img/l-puerto-redis.png" width="640">
+	<img src="../img/l-puerto-redis.png" width="640">
 </p>
 
 Con esa opción deberá iniciarse la base de datos, sino aparece el círculo verde presione *Deploy*. El puerto de redis es el mismo de la db pero no con 100## sino 200##.
@@ -105,7 +105,7 @@ Dentro de la empresa que acaba de crear, presione *Create Service*, y del submen
 
 Ingrese a la app dándole clic. En la pestaña *General* en el bloque *Provider* digite el formulario y luego presione *Save*:
 <p>
-	<img src="img/m-formulario-github-app.png" width="640">
+	<img src="../img/m-formulario-github-app.png" width="640">
 </p>
 
 * *Github Account*: dokploy-ingeconcr-github
@@ -116,7 +116,7 @@ Ingrese a la app dándole clic. En la pestaña *General* en el bloque *Provider*
 
 Luego llene el formulario *Build Type* con los siguientes datos y luego presione *Save*:
 <p>
-	<img src="img/n-app-dockerfile.png" width="640">
+	<img src="../img/n-app-dockerfile.png" width="640">
 </p>
 
 * *Build Type*: Dockerfile
@@ -153,7 +153,7 @@ CELERY_RESULT_BACKEND=redis://default:<contraseña_base_datos>@10.10.10.3:<puert
 
 Vaya a la pestaña *Domains* y agregue estos dos dominios usando el botón *Add Domain* y luego *Create*:
 <p>
-	<img src="img/o-dominio-app.png" width="320">
+	<img src="../img/o-dominio-app.png" width="320">
 </p>
 	
 <u>Dominio 1</u>:
@@ -174,7 +174,7 @@ Vaya a la pestaña *Domains* y agregue estos dos dominios usando el botón *Add 
 
 Continúe en la pestaña *Volume Backups* y añada un *Add Volume Backup*, llene el formulario con estos valores y luego presione *Create Volume Backup*:
 <p>
-	<img src="img/p-volumen-backup-app.png" width="320">
+	<img src="../img/p-volumen-backup-app.png" width="320">
 </p>
 
 * *Task Name:* <nombre_empresa>-uploads
@@ -186,7 +186,7 @@ Continúe en la pestaña *Volume Backups* y añada un *Add Volume Backup*, llene
 
 Por último diríjase a la pestaña Advanced al bloque Volumes y añada dos volúmenes con estos datos usando el botón *Add Volume* y luego *Create*:
 <p>
-	<img src="img/q-volume1-app.png" width="640">
+	<img src="../img/q-volume1-app.png" width="640">
 </p>
 
 <u>Volumen 1</u>:
@@ -195,7 +195,7 @@ Por último diríjase a la pestaña Advanced al bloque Volumes y añada dos vol�
 * *Mount Path:* /app/static/uploads
 
 <p>
-	<img src="img/r-volumen2-app.png" width="640">
+	<img src="../img/r-volumen2-app.png" width="640">
 </p>
 
 <u>Volumen 2</u>:
