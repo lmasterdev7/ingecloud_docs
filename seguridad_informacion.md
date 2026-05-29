@@ -1,4 +1,4 @@
-# Política Seguridad de la Información 
+# Política | Seguridad de la Información 
 
 Santiago de Cali, 1 de enero del 2026 
 
