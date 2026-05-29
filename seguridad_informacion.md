@@ -1,5 +1,5 @@
-
-[!NOTE] <span style="color: green;">Política | Seguridad de la Información</span> 
+# $${\color{lightblue}\text{Mi Título en Azul}}$$
+Política | Seguridad de la Información
 
 Santiago de Cali, 1 de enero del 2026 
 
