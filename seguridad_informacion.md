@@ -29,43 +29,32 @@ Esta política aplica a:
 
 -	Proveedores tecnológicos vinculados a la operación. 
 
---- 
 
-2. Marco Normativo 
+## 2. Marco Normativo 
 
-ShapeIngecon Group SAS opera conforme a: 
+Ingecon Group SAS opera conforme a: 
 
- Ley 1581 de 2012 (Protección de Datos Personales – Colombia). 
+-	Ley 1581 de 2012 (Protección de Datos Personales – Colombia). 
 
-Decreto 1377 de 2013. 
+-	Decreto 1377 de 2013. 
 
-Principios internacionales de buenas prácticas en seguridad de la información (alineados conceptualmente con ISO 27001). 
- 
+-	Principios internacionales de buenas prácticas en seguridad de la información (alineados conceptualmente con ISO 27001). 
  
 
-3. Gobierno y Responsabilidades 
+## 3. Gobierno y Responsabilidades 
 
-4.1 Gerencia General 
-
--    Aprobar la presente política. 
-	-    Proveer recursos necesarios para su cumplimiento. 
+3.1 Gerencia General 
+-	Aprobar la presente política. 
+-	Proveer recursos necesarios para su cumplimiento. 
  
- 
+3.2 Responsable de Tecnología 
+-	Implementar y mantener controles técnicos. 
+-	Gestionar riesgos tecnológicos. 
+-	Supervisar incidentes de seguridad. 
 
-4.2 Responsable de Tecnología 
-
--    Implementar y mantener controles técnicos. 
-	-    Gestionar riesgos tecnológicos. 
-
--    Supervisar incidentes de seguridad. 
- 
- 
-
-4.3 Colaboradores 
-
--    Cumplir los lineamientos establecidos. 
-
--    Reportar eventos sospechosos o incidentes. 
+3.3 Colaboradores 
+-	Cumplir los lineamientos establecidos. 
+-	Reportar eventos sospechosos o incidentes. 
  
 
 4. Gestión de Riesgos 
