@@ -100,7 +100,9 @@ El uso continuo de la plataforma constituye aceptación de la presente Política
 ---
  
 Representante Legal: **César Augusto Rodríguez** 
+
 Firma: **César Augusto Rodríguez**
+
 Fecha: 1 de febrero del 2026 
 
  
