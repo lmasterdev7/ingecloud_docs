@@ -1,4 +1,4 @@
-# $${\color{lightblue}\text{Mi Título en Azul}}$$
+# $${\color{blue}\text{Mi Título en Azul}}$$
 Política | Seguridad de la Información
 
 Santiago de Cali, 1 de enero del 2026 
