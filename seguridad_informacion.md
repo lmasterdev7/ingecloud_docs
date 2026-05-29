@@ -198,6 +198,7 @@ Esta política será revisada periódicamente para asegurar que continúe siendo
 ## 13. Auditoría y Mejora Continua 
 La política será revisada anualmente o ante cambios relevantes en la operación. Se implementarán mejoras continuas conforme a evolución de amenazas o requisitos regulatorios. 
 
+---
  
 Representante Legal: **Cesar Augusto Rodriguez**
 Firma: Cesar Augusto Rodriguez  
