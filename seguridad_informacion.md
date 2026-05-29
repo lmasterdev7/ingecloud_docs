@@ -2,7 +2,7 @@
 
 Santiago de Cali, 1 de enero del 2026 
 
-## Propósito 
+## $${\color{blue}\text{Propósito}}$$
 
 Establecer el marco integral de gestión de seguridad de la información de Ingecon Group SAS para proteger los activos de información gestionados a través de la plataforma Ingecloud, garantizando: 
 -	Confidencialidad 
@@ -11,7 +11,7 @@ Establecer el marco integral de gestión de seguridad de la información de Inge
 -	Autenticidad 
 -	Trazabilidad 
  
-## 1. Alcance 
+## $${\color{blue}\text{1. Alcance}}$$
 
 Esta política aplica a: 
 -	Todos los empleados y contratistas. 
@@ -19,36 +19,36 @@ Esta política aplica a:
 -	Los datos personales y corporativos tratados por la plataforma. 
 -	Proveedores tecnológicos vinculados a la operación. 
 
-## 2. Marco Normativo 
+## $${\color{blue}\text{2. Marco Normativo}}$$
 
 Ingecon Group SAS opera conforme a: 
 -	Ley 1581 de 2012 (Protección de Datos Personales – Colombia). 
 -	Decreto 1377 de 2013. 
 -	Principios internacionales de buenas prácticas en seguridad de la información (alineados conceptualmente con ISO 27001). 
  
-## 3. Gobierno y Responsabilidades 
+## $${\color{blue}\text{3. Gobierno y Responsabilidades}}$$
 
-### 3.1 Gerencia General 
+### $${\color{blue}\text{3.1 Gerencia General}}$$
 -	Aprobar la presente política. 
 -	Proveer recursos necesarios para su cumplimiento. 
  
-### 3.2 Responsable de Tecnología 
+### $${\color{blue}\text{3.2 Responsable de Tecnología}}$$
 -	Implementar y mantener controles técnicos. 
 -	Gestionar riesgos tecnológicos. 
 -	Supervisar incidentes de seguridad. 
 
-### 3.3 Colaboradores 
+### $${\color{blue}\text{3.3 Colaboradores}}$$
 -	Cumplir los lineamientos establecidos. 
 -	Reportar eventos sospechosos o incidentes. 
  
-## 4. Gestión de Riesgos 
+## $${\color{blue}\text{4. Gestión de Riesgos}}$$
 
 La organización identifica, evalúa y trata riesgos que puedan afectar la seguridad de la información mediante: 
 -	Evaluación periódica de vulnerabilidades. 
 -	Implementación de controles preventivos, de detección y correctivos. 
 -	Revisión anual de la postura de seguridad. 
 
-## 5. Seguridad de Infraestructura 
+## $${\color{blue}\text{5. Seguridad de Infraestructura}}$$
 
 -	Infraestructura desplegada en servidores VPS con recursos dedicados. 
 -	Segmentación mediante red privada (VPC). 
@@ -58,7 +58,7 @@ La organización identifica, evalúa y trata riesgos que puedan afectar la segur
 -	Protección contra ataques DDoS. 
 -	Cifrado obligatorio HTTPS (TLS). 
 
-## 6. Protección de Datos Personales 
+## $${\color{blue}\text{6. Protección de Datos Personales}}$$
 
 -	Se implementan medidas técnicas y organizativas para: 
 -	Garantizar tratamiento conforme a finalidad contractual 
@@ -67,14 +67,14 @@ La organización identifica, evalúa y trata riesgos que puedan afectar la segur
 -	Mantener política de retención de datos 
 -	Prohibir cesión o transferencia no autorizada 
 
-## 7. Gestión de Cambios 
+## $${\color{blue}\text{7. Gestión de Cambios}}$$
 
 Todo cambio significativo en infraestructura o aplicación debe: 
 -	Evaluarse en términos de impacto de seguridad 
 -	Documentarse 
 -	Validar antes de su despliegue en producción 
 
-## 8. Control de Accesos 
+## $${\color{blue}\text{8. Control de Accesos}}$$
 
 Establecer controles estrictos de autenticación y autorización para proteger los activos tecnológicos y datos personales gestionados por Ingecloud. 
 
@@ -90,7 +90,7 @@ Establecer controles estrictos de autenticación y autorización para proteger l
  
 **Registro y Monitoreo:** Se mantienen registros de eventos relevantes que permiten: Auditoría posterior, Investigación de incidentes, Análisis de comportamiento anómalo.
  
-## 9. Gestión de vulnerabilidades 
+## $${\color{blue}\text{9. Gestión de vulnerabilidades}}$$
 
 Ingecon Group SAS mantiene una política interna de Gestión de Vulnerabilidades y Gestión de Parches que define los procedimientos para identificar, evaluar y mitigar vulnerabilidades que puedan afectar la plataforma SaaS Ingecloud. 
 
@@ -102,7 +102,7 @@ Monitoreo de vulnerabilidades publicadas que afecten el sistema operativo, depen
 -	Evaluación y priorización de vulnerabilidades según su severidad. 
 -	Implementación de mitigaciones o actualizaciones cuando se identifican riesgos de seguridad relevantes. 
  
-## 10. Gestión de Incidentes de Seguridad 
+## $${\color{blue}\text{10. Gestión de Incidentes de Seguridad}}$$
 
 Definir el proceso formal para detección, análisis, contención, erradicación y recuperación ante incidentes de seguridad. 
 
@@ -118,7 +118,7 @@ El proceso de gestión está estructurado de la siguiente manera:
 
 En caso de afectación de datos personales se notificará al cliente correspondiente y se evaluará obligación de reporte a autoridades competentes. Todo incidente generará análisis de causa raíz, revisión de controles e implementación de mejoras preventivas. 
 
-## 11. Backup y Continuidad
+## $${\color{blue}\text{11. Backup y Continuidad}}$$
 
 Garantizar la resiliencia operativa y continuidad del servicio ante fallos técnicos, incidentes de seguridad o desastres. 
 
@@ -134,7 +134,7 @@ Garantizar la resiliencia operativa y continuidad del servicio ante fallos técn
 
 **Revisión:** El plan será revisado al menos una vez al año o ante cambios significativos en la infraestructura. 
 
-## 12. Gestión de Riesgos de Proveedores 
+## $${\color{blue}\text{12. Gestión de Riesgos de Proveedores}}$$
 
 Esta política define el marco de gestión de riesgos aplicable a proveedores y terceros que participan en la operación de la plataforma SaaS Ingecloud, con el objetivo de identificar, evaluar y mitigar riesgos de seguridad, disponibilidad y cumplimiento asociados a la cadena de suministro tecnológica.  
 
@@ -195,7 +195,7 @@ Estas medidas permiten mantener la continuidad del servicio ante incidentes o in
 **Revisión de la política** 
 Esta política será revisada periódicamente para asegurar que continúe siendo adecuada frente a los riesgos asociados a la cadena de suministro tecnológica. 
 
-## 13. Auditoría y Mejora Continua 
+## $${\color{blue}\text{13. Auditoría y Mejora Continua}}$$
 La política será revisada anualmente o ante cambios relevantes en la operación. Se implementarán mejoras continuas conforme a evolución de amenazas o requisitos regulatorios. 
 
 ---
