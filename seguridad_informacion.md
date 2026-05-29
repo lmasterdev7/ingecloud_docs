@@ -1,4 +1,4 @@
-# Política | Seguridad de la Información 
+# <span style="color:#3e86fe">Política | Seguridad de la Información</span> 
 
 Santiago de Cali, 1 de enero del 2026 
 
