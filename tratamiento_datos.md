@@ -39,99 +39,68 @@ Los datos personales son tratados exclusivamente para:
 -  Cumplimiento de obligaciones contractuales. 
 -  Soporte técnico y mantenimiento del servicio. 
 -  Cumplimiento de obligaciones legales. 
+
 Ingecon Group SAS no comercializa ni vende datos personales. 
 
-5. Base legal del tratamiento 
+## 5. Base legal del tratamiento 
 
 El tratamiento se realiza con fundamento en: Autorización del titular otorgada al cliente, ejecución de contrato entre el cliente e Ingecon Group SAS y Cumplimiento de obligaciones legales aplicables. 
 
- 
+## 6. Encargado vs responsable 
 
-6. Encargado vs responsable 
+En la mayoría de los casos: El cliente actúa como responsable del tratamiento. Ingecon Group SAS actúa como Encargado del tratamiento, procesando los datos conforme a las instrucciones del cliente. 
 
-En la mayoría de los casos: El cliente actúa como responsable del tratamiento. 
-Ingecon Group SAS actúa como Encargado del tratamiento, procesando los datos conforme a las instrucciones del cliente. 
-
- 
-
-7. Medidas de Seguridad 
+## 7. Medidas de Seguridad 
 
 Ingecon Group SAS implementa medidas técnicas y organizativas apropiadas para proteger la información, incluyendo: 
+-  Cifrado de datos en tránsito mediante HTTPS (TLS). 
+-  Control de acceso basado en roles. 
+-  Autenticación segura con contraseñas hasheadas (bcrypt). 
+-  Infraestructura segmentada en red privada. 
+-  Protección contra ataques DDoS. 
+-  Backups periódicos. 
+-  Acceso administrativo restringido. 
+-  Autenticación de doble factor en plataformas críticas.
 
-Cifrado de datos en tránsito mediante HTTPS (TLS). 
-
-Control de acceso basado en roles. 
-
-Autenticación segura con contraseñas hasheadas (bcrypt). 
-
-Infraestructura segmentada en red privada. 
-
-Protección contra ataques DDoS. 
-
-Backups periódicos. 
-
-Acceso administrativo restringido. 
-
-Autenticación de doble factor en plataformas críticas. 
- 
-
-Shape 
-
- 
-
-8. Almacenamiento y Transferencias Internacionales 
+## 8. Almacenamiento y Transferencias Internacionales 
 
 La infraestructura tecnológica puede estar alojada en centros de datos ubicados fuera de Colombia. En tales casos: 
 
 Se adoptan medidas contractuales y técnicas para garantizar la protección adecuada de los datos. Se asegura que los proveedores cumplan estándares internacionales de seguridad. 
 
- 
-
-9. Retención de Datos 
+## 9. Retención de Datos 
 
 Los datos personales se conservarán durante la vigencia de la relación contractual según los tiempos definidos por el cliente conforme a obligaciones legales aplicables. 
 Una vez cumplida la finalidad, los datos podrán ser eliminados o anonimizados. 
 
- 
-
-10. Derechos de los Titulares 
+## 10. Derechos de los Titulares 
 
 Los titulares de datos personales tienen derecho conocer, actualizar y rectificar sus datos y solicitar prueba de autorización, además, ser informados sobre el uso de sus datos, presentar quejas ante la Superintendencia de Industria y Comercio y revocar la autorización y/o solicitar supresión del dato cuando sea procedente. 
 
 Las solicitudes deben realizarse a través del Responsable (cliente empleador) o al correo indicado en esta política. 
 
- 
-
-11. Procedimiento para Ejercer Derechos 
+## 11. Procedimiento para Ejercer Derechos 
 
 Las consultas y reclamos deberán incluir: Nombre completo del titular, Documento de identificación, Descripción de la solicitud y Datos de contacto. 
 
 Las solicitudes serán atendidas en los términos establecidos por la normativa colombiana. 
 
- 
-
-12. Cookies y Tecnologías Similares 
+## 12. Cookies y Tecnologías Similares 
 
 La plataforma puede utilizar cookies técnicas necesarias para: autenticación de usuarios, seguridad de sesión y el funcionamiento adecuado del sistema. No se utilizan cookies con fines publicitarios. 
 
- 
-
-13. Modificaciones a la Política 
+## 13. Modificaciones a la Política 
 
 Ingecon Group SAS podrá modificar esta Política de Privacidad cuando sea necesario. Los cambios serán publicados oportunamente en los canales oficiales. 
 
+## 15. Aceptación 
+
+El uso continuo de la plataforma constituye aceptación de la presente Política de Privacidad y tratamiento de datos. 
+
+---
  
-
-15. Aceptación 
-
-El uso continuo de la plataforma constituye aceptación de la presente Política de Privacidad. 
-
- 
-
- 
-
-Representante Legal: César Augusto Rodríguez 
-Firma: César Augusto Rodríguez  
+Representante Legal: **César Augusto Rodríguez** 
+Firma: **César Augusto Rodríguez**
 Fecha: 1 de febrero del 2026 
 
  
