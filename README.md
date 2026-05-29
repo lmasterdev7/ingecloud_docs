@@ -7,5 +7,5 @@ También se agregan documentos relacionado con el despliegue y configuración de
 
 ## Indice
  * ### [Despligue de Ingeloud](deploy_dokploy.md)
- * ### [Política de Seguridad de la Información](deploy_dokploya.md)
+ * ### [Política de Seguridad de la Información](seguridad_informacion.md)
  * ### [Política de Privacidad](deploy_dokployb.md)
