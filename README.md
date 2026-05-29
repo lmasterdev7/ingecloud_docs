@@ -6,6 +6,6 @@ También se agregan documentos relacionado con el despliegue y configuración de
 ---
 
 ## Indice
- * ### [Despligue de Ingeloud](deploy_dokploy.md)
- * ### [Política de Seguridad de la Información](seguridad_informacion.md)
- * ### [Política de Tratamiento de Datos y Privacidad](tratamiento_datos.md)
+ * ### [Despligue de Ingeloud](docs/deploy_dokploy.md)
+ * ### [Política de Seguridad de la Información](docs/seguridad_informacion.md)
+ * ### [Política de Tratamiento de Datos y Privacidad](docs/tratamiento_datos.md)
